@@ -23,8 +23,8 @@ module.exports = {
           **\`${client.users.cache.size}\`**`)
           .addField('Text channels',`**\`${client.channels.cache.filter((ch) => ch.type === "text").size}\`**`)
           .addField('Voice channels',`**\`${client.channels.cache.filter((ch) => ch.type === "voice").size}\`**`)
-          .addField('**Node Version**',`**\`v16.5.0\`**`)
-          .addField('**Discord.js**',`**\`v13.0.0\`**`)
+          .addField('**Node Version**',`**\`${process.version}\`**`)
+          .addField('**Discord.js**',`**\`${discordjsVersion}\`**`)
           .addField('**Ping**',`**\`${client.ws.ping}ms\`**`)
 
 
