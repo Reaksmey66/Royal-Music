@@ -12,7 +12,7 @@
     "common-tags": "^1.8.0",
     "cpu-stat": "^2.0.1",
     "deezer-public-api": "^1.0.4",
-    "discord.js": "^12.3.1",
+    "discord.js": "^13.1.0",
     "discord.js-pagination": "^1.0.3",
     "distube": "^2.8.15",
     "enmap": "^5.8.2",
